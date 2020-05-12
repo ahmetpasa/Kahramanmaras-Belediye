@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ahmet.maras_belediye">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+        <activity android:name=".konumgonder" />
+        <activity
+            android:name=".haberintent"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".kesfedinucIntent"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".kesfedinikiIntent"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".kesfedinbirIntent"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".ozgecmis"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".gorev_yetki"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".preferences"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".baskan"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".kurumsal"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".login"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".nobetci_eczane"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".sebzemeyve"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".arac_takip"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".semt_pazari"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".taziye_evleri"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".taziye"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".cenaze"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".duyuruActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".sync.AppReminderFirebase"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
+            </intent-filter>
+        </service>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347824340631",
+    "firebase_url": "https://belediye-168a2.firebaseio.com",
+    "project_id": "belediye-168a2",
+    "storage_bucket": "belediye-168a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347824340631:android:cdaf7287d550f906c873d2",
+        "android_client_info": {
+          "package_name": "com.ahmet.maras_belediye"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347824340631-6o5enmf8696tncfjeskmahoegc3804jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhL4NMjC84Cq1q9QR5kVEWHzjZRB8y8uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347824340631-6o5enmf8696tncfjeskmahoegc3804jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

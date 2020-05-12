@@ -1,0 +1,42 @@
+<resources>
+    <string-array name="language_options">
+        <item>"Türkçe"</item>
+        <item>"English"</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>"turkish"</item>
+        <item>"english"</item>
+    </string-array>
+    <string name="app_name">Maras_belediye</string>
+    <string name="kurumsal">Kurumsal</string>
+    <string name="baskan">Başkan</string>
+    <string name="ad_soyad">Ad Soyad</string>
+    <string name="calisan_no">Çalışan No</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="dil_secenegi">Dil Seçeneği</string>
+    <string name="haberler">Haberler</string>
+    <string name="nobetci_eczaneler">Nöbetçi Eczaneler</string>
+    <string name="sebzemeyve">Sebze Meyve Fiyatları</string>
+    <string name="aractakip">Araç Takip Sistemi</string>
+    <string name="semtpazari">Semt Pazarı Yerleri</string>
+    <string name="taziyeevleri">Taziye Evleri</string>
+    <string name="cenazeilanlari">Cenaze İlanları</string>
+    <string name="hizmetler">Hizmetler</string>
+    <string name="duyurular">Duyurular</string>
+    <string name="kesfedin">Keşfedin</string>
+    <string name="vizyon_ve_misyon">Vizyon ve Misyon</string>
+    <string name="gorev_yetki">Görev,Yetki ve İlkeler</string>
+    <string name="misyon">Misyon</string>
+    <string name="vizyon">Vizyon</string>
+    <string name="ilkeler">İlkeler</string>
+    <string name="ozgecmis">Özgeçmiş</string>
+    <string name="gorev_ve_yetki">Görev, Yetki ve Sorumlulukları</string>
+    <string name="pazartesi">Pazartesi</string>
+    <string name="sali">Salı</string>
+    <string name="carsamba">Çarşamba</string>
+    <string name="persembe">Perşembe</string>
+    <string name="cuma">Cuma</string>
+    <string name="cumartesi">Cumartesi</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language_options">
+        <item>"Türkçe"</item>
+        <item>"English"</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>"turkish"</item>
+        <item>"english"</item>
+    </string-array>
+    <string name="app_name">Maras_belediye</string>
+    <string name="aractakip">Vehicle Tracking System</string>
+    <string name="baskan">Mayor</string>
+    <string name="calisan_no">Worker ID</string>
+    <string name="carsamba">Wednesday</string>
+    <string name="cenazeilanlari">Funeral Announcements</string>
+    <string name="cuma">Friday</string>
+    <string name="cumartesi">Saturday</string>
+    <string name="dil_secenegi">Language Settings</string>
+    <string name="duyurular">Announcements</string>
+    <string name="giris_yap">Log In</string>
+    <string name="gorev_ve_yetki">Missions, Authorities and Responsibilities</string>
+    <string name="gorev_yetki">Missions, Authorities and Principles</string>
+    <string name="haberler">News</string>
+    <string name="hizmetler">Services</string>
+    <string name="ilkeler">Principles</string>
+    <string name="kesfedin">Explore</string>
+    <string name="kurumsal">Commercial</string>
+    <string name="misyon">Mission</string>
+    <string name="nobetci_eczaneler">Pharmacies on Duty</string>
+    <string name="ozgecmis">Autobiography</string>
+    <string name="pazartesi">Monday</string>
+    <string name="persembe">Thursday</string>
+    <string name="sali">Tuesday</string>
+    <string name="sebzemeyve">Greengrocer Prices</string>
+    <string name="semtpazari">Locations of District Bazaars</string>
+    <string name="taziyeevleri">Locations for Condolance</string>
+    <string name="vizyon">Vision</string>
+    <string name="vizyon_ve_misyon">Visions,Missions and Principles</string>
+    <string name="ad_soyad">Name</string>
+</resources>

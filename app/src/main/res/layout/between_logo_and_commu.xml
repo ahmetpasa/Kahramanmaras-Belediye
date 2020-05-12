@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/haber_giris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Gold"
+                android:gravity="center"
+                android:text="@string/haberler" />
+
+            <RelativeLayout
+                android:id="@+id/haberler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/tek_haber"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/hizmet_giris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Gold"
+                android:gravity="center"
+                android:text="@string/hizmetler" />
+
+            <LinearLayout
+                android:id="@+id/hizmetler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/birinci_satir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/nobetci_eczane"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/eczane"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/eczane" />
+
+                        <TextView
+                            android:id="@+id/eczane_aciklama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/nobetci_eczaneler" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/sebze_meyve"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/sebzemeyve"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/sebzemeyve" />
+
+                        <TextView
+                            android:id="@+id/sebzemeyve_aciklama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/sebzemeyve" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/arac_takip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/at"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/aractakip" />
+
+                        <TextView
+                            android:id="@+id/at_aciklama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/aractakip" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ikinci_satir"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/semt_pazarlari"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/pazar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/pazar" />
+
+                        <TextView
+                            android:id="@+id/pazar_aciklama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/semtpazari" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/taziye_evleri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/taziye"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/taziye" />
+
+                        <TextView
+                            android:id="@+id/taziye_aciklama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/taziyeevleri" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/cenaze_ilanlari"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/cenaze"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/cenaze" />
+
+                        <TextView
+                            android:id="@+id/cenaze_aciklama"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/cenazeilanlari" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/duyuru_giris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Gold"
+                android:gravity="center"
+                android:text="@string/duyurular" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/duyurular"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/kesif_giris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Gold"
+                android:gravity="center"
+                android:text="@string/kesfedin" />
+
+            <RelativeLayout
+                android:id="@+id/kesif"
+                android:layout_width="match_parent"
+                android:layout_height="351dp">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/kesfedin"
+                    android:layout_width="match_parent"
+                    android:layout_height="253dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

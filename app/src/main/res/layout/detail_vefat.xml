@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/baslik_ana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/baslik_baba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/baslik_dt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/baslik_vt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/baslik_deft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/baslik_defy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/baslik_cks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/baslik_cky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/baslik_ceny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/baslik_ta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/baslik_anm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="22sp"/>
+
+</LinearLayout>
